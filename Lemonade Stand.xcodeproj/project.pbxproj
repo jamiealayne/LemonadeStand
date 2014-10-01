@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267D449919D5A9900021897E /* RandomNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D449819D5A9900021897E /* RandomNumbers.swift */; };
 		268F1A7319D35A630071F7FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F1A7219D35A630071F7FA /* AppDelegate.swift */; };
-		268F1A7519D35A630071F7FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F1A7419D35A630071F7FA /* ViewController.swift */; };
+		268F1A7519D35A630071F7FA /* LemonadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F1A7419D35A630071F7FA /* LemonadeViewController.swift */; };
 		268F1A7819D35A630071F7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268F1A7619D35A630071F7FA /* Main.storyboard */; };
 		268F1A7A19D35A630071F7FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268F1A7919D35A630071F7FA /* Images.xcassets */; };
 		268F1A7D19D35A630071F7FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 268F1A7B19D35A630071F7FA /* LaunchScreen.xib */; };
 		268F1A8919D35A630071F7FA /* Lemonade_StandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F1A8819D35A630071F7FA /* Lemonade_StandTests.swift */; };
+		268F1A9519D460990071F7FA /* CustomersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F1A9419D460990071F7FA /* CustomersVC.swift */; };
+		268F1A9819D463DF0071F7FA /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F1A9719D463DF0071F7FA /* Customer.swift */; };
+		268F1A9B19D4AF870071F7FA /* CustomersTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F1A9A19D4AF870071F7FA /* CustomersTableVC.swift */; };
+		268F1A9E19D4B5AE0071F7FA /* CustomerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F1A9D19D4B5AE0071F7FA /* CustomerTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		267D449819D5A9900021897E /* RandomNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumbers.swift; sourceTree = "<group>"; };
 		268F1A6D19D35A630071F7FA /* Lemonade Stand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemonade Stand.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268F1A7119D35A630071F7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268F1A7219D35A630071F7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		268F1A7419D35A630071F7FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		268F1A7419D35A630071F7FA /* LemonadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeViewController.swift; sourceTree = "<group>"; };
 		268F1A7719D35A630071F7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		268F1A7919D35A630071F7FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		268F1A7C19D35A630071F7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		268F1A8219D35A630071F7FA /* Lemonade StandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade StandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268F1A8719D35A630071F7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268F1A8819D35A630071F7FA /* Lemonade_StandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemonade_StandTests.swift; sourceTree = "<group>"; };
+		268F1A9419D460990071F7FA /* CustomersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomersVC.swift; path = ../CustomersVC.swift; sourceTree = "<group>"; };
+		268F1A9719D463DF0071F7FA /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		268F1A9A19D4AF870071F7FA /* CustomersTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomersTableVC.swift; sourceTree = "<group>"; };
+		268F1A9D19D4B5AE0071F7FA /* CustomerTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +87,10 @@
 		268F1A6F19D35A630071F7FA /* Lemonade Stand */ = {
 			isa = PBXGroup;
 			children = (
+				268F1A9C19D4B59A0071F7FA /* Helpers */,
+				268F1A9919D4ABBF0071F7FA /* ViewControllers */,
+				268F1A9619D463D00071F7FA /* Models */,
 				268F1A7219D35A630071F7FA /* AppDelegate.swift */,
-				268F1A7419D35A630071F7FA /* ViewController.swift */,
 				268F1A7619D35A630071F7FA /* Main.storyboard */,
 				268F1A7919D35A630071F7FA /* Images.xcassets */,
 				268F1A7B19D35A630071F7FA /* LaunchScreen.xib */,
@@ -110,6 +122,33 @@
 				268F1A8719D35A630071F7FA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		268F1A9619D463D00071F7FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				268F1A9719D463DF0071F7FA /* Customer.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		268F1A9919D4ABBF0071F7FA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				268F1A7419D35A630071F7FA /* LemonadeViewController.swift */,
+				268F1A9419D460990071F7FA /* CustomersVC.swift */,
+				268F1A9A19D4AF870071F7FA /* CustomersTableVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		268F1A9C19D4B59A0071F7FA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				267D449819D5A9900021897E /* RandomNumbers.swift */,
+				268F1A9D19D4B5AE0071F7FA /* CustomerTableCell.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268F1A7519D35A630071F7FA /* ViewController.swift in Sources */,
+				268F1A9E19D4B5AE0071F7FA /* CustomerTableCell.swift in Sources */,
+				268F1A7519D35A630071F7FA /* LemonadeViewController.swift in Sources */,
+				268F1A9B19D4AF870071F7FA /* CustomersTableVC.swift in Sources */,
 				268F1A7319D35A630071F7FA /* AppDelegate.swift in Sources */,
+				268F1A9519D460990071F7FA /* CustomersVC.swift in Sources */,
+				268F1A9819D463DF0071F7FA /* Customer.swift in Sources */,
+				267D449919D5A9900021897E /* RandomNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +449,7 @@
 				268F1A8E19D35A630071F7FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		268F1A8F19D35A630071F7FA /* Build configuration list for PBXNativeTarget "Lemonade StandTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +458,7 @@
 				268F1A9119D35A630071F7FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
